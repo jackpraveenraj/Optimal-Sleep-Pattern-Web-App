@@ -1,28 +1,29 @@
 <link rel="stylesheet" href="style.css">
 <!DOCTYPE html>
+
 <html>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Card</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
 
-<body>
-  <div id="card">
-    <div id="card-content">
-      <div id="card-title">
-        <h2>Today’s Nap Data:</h2>
-      </div id="form-module">
-      <form method="post" class="form">
-        <label for="user-email" style="padding-top:13px">&nbsp;Number Of Naps:</label>
-        <input id="user-email" class="form-content" type="email" name="email" autocomplete="on" placeholder="... times" required />
-        <label for="user-password" style="padding-top:23px">&nbsp;Total Nap Minutes:</label>
-        <input id="user-password" class="form-content" type="password" name="password" placeholder="... mins" required />
-      </form>
+  <body>
+    <div id="nap-card">
+      <div id="nap-card-content">
+        <div id="nap-card-title">
+          <h2>Today’s Nap Data:</h2>
+        </div id="nap-form-module">
+        <form method="post" class="form">
+          <label for="nap_total_freq" style="padding-top:13px">&nbsp;Number Of Naps:</label>
+          <input id="nap_total_freq" class="nap-form-content" type="number" name="nap_total_freq" autocomplete="on" placeholder="... times" required />
+          <label for="nap_total_time" style="padding-top:23px">&nbsp;Total Nap Minutes:</label>
+          <input id="nap_total_time" class="nap-form-content" type="number" name="nap_total_time" placeholder="... mins" required />
+        </form>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 
 </html>
