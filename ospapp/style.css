@@ -37,13 +37,19 @@ a {
     padding-left: 30px;
     display: flex;
     flex-direction: column;
+    
   }
 
   .form-content {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
     background: #fbfbfb;
+    color: #5620B4;
+    font-size: 24px;
     border: none;
     outline: none;
     padding-top: 14px;
+    
   }
 
   .input{
