@@ -5,21 +5,68 @@ a {
 
   label {
     font-family: "Montserrat", sans-serif;
-    font-size: 11pt;
+    font-size: 14pt;
   }
 
   
 /*SLEEP DATA CARD*/
+#sleep-card {
+  margin: 9rem 0 0 0;             /*POSITION*/
+  background: -webkit-linear-gradient(bottom, #840AFF, #5620B4);
+  border-radius: 80px;
+  box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.45);
+  height: 340px;
+  width: 600px;
+}
+
+#sleep-card-title {
+  font-family: "Montserrat", sans-serif;
+  border-radius: 12px;
+
+  color: white;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 30px;
+  text-align: left;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form {
+  color: black;
+  align-items: left;
+  padding-top: 15px;
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.sleep-form-content {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background: #fbfbfb;
+  color: #5620B4;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+  
+}
+
+.input{
+  font-family: "Montserrat", sans-serif;
+
+}
 
 
 /*NAP DATA CARD*/
   #nap-card {
-    margin: 10rem auto 8.1rem auto;                                           /*Position*/
+    margin: 9rem 0 0 40rem;        /* POSITION*/                                    /*Position*/
     background: #fbfbfb;
     border-radius: 18px;
     box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.45);
     height: 280px;
-    width: 490px;
+    width: 650px;
     border: 4px solid #5720B5;
   }
 
@@ -44,7 +91,6 @@ a {
     flex-direction: column;
     
   }
-
   .nap-form-content {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -64,6 +110,53 @@ a {
   
 
   /*BODY DATA CARD*/
+
+  #age-card {
+    margin: 9rem 0 0 40rem;        /* POSITION*/                                    /*Position*/
+    background: #fbfbfb;
+    border-radius: 18px;
+    box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.45);
+    height: 130px;
+    width: 350px;
+  }
+
+  #age-card-title {
+    font-family: "Montserrat", sans-serif;
+    border-radius: 12px;
+    background: -webkit-linear-gradient(bottom, #840AFF, #5620B4);
+    color: white;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 30px;
+    text-align: left;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .form {
+    color: black;
+    align-items: left;
+    padding-top: 15px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .age-form-content {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    background: #fbfbfb;
+    color: #5620B4;
+    font-size: 24px;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+    
+  }
+
+  .input{
+    font-family: "Montserrat", sans-serif;
+
+  }
 
 
   /*CALROIE DATA CARD*/
