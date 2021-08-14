@@ -16,10 +16,6 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
-option{
-  color:black;
-}
-
 
 
 /*SLEEP DATA CARD*/
@@ -134,17 +130,16 @@ option{
     border-radius: 18px;
     box-shadow: 1px 2px 7px rgba(0, 0, 0, 0.45);
     height: 130px;
-    width: 450px;
+    width: 350px;
   }
 
 
   img{
-    width: 50px;
-    margin: 35px 0 0 35px;
+    width: 90px;
+    margin: 30px 0 0 30px;
   }
 
   #data-card-title {
-    margin: 30px 0 0 30px;
     font-family: "Montserrat", sans-serif;
     border-radius: 12px;
     background: -webkit-linear-gradient(bottom, #840AFF, #5620B4);
@@ -177,7 +172,6 @@ option{
     padding-top: 14px;
     
   }
-
 
 
 

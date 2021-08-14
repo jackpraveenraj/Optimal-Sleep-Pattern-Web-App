@@ -4,7 +4,6 @@
 <!DOCTYPE html>
 
 <html>
-  
 
   <head>
     <meta charset="utf-8" />
@@ -15,13 +14,9 @@
   </head>
 
   <body>
-
-    <h1 style="font-family: Montserrat; color:#5620B4; font-size: 35px; position: absolute; left:50px; top:35px;">Optimal Sleep</h1>
-    <h1 style="font-family: Montserrat; color:#5620B4; font-size: 35px; position: absolute; left:50px; top:75px;">Pattern Prediction:</h1>
-
     <div class="container-fluid">
       <div class="row">
-        <div class="col" style="padding-top:220px; padding-left:130px;">
+        <div class="col" style="padding-top:250px; padding-left:130px;">
           <div id="sleep-card">
             <div id="sleep-card-content">
               <div id="sleep-form-module">
@@ -87,71 +82,73 @@
         </div>
 
 
-        
-        <div class="col-8" style="padding-left: 200px; padding-bottom: 120px;">
-             
-             
-          <div class="row">
-             
+        <div class="col-6">                 <!-- outer grid */-->
+          <div class="container" style="padding-left:0;">
+            <div class="row" style="padding-bottom:20px; ">               <!-- inner grid - row 1 */-->
 
-              <div class="col-6">
-                  <div id="data-card">
-                      <div id="data-card-content">
-                          <img src="Assets/age-icon.png" alt="age-image"></img>
-                      <div id="age-form-module" style="position: relative; bottom: 70px; left: 70px;">
-                          <form method="post" class="form">
-                              <label for="age" >&nbsp;Age:</label>
-                              <input id="age" class="data-form-content" type="number" name="age" autocomplete="on" placeholder="... years old" required/>
-                          </form>
-                      </div>
+              <div class="col">
+                <div id="data-card">
+                  <div id="data-card-content">
+                    <img src="Assets/age-icon.png" alt="age-image"></img>
+                    </div id="age-form-module">
+                    <form method="post" class="form">
+                      <label for="age" style="padding-top:13px">&nbsp;Age:</label>
+                      <input id="age" class="data-form-content" type="number" name="age" autocomplete="on" placeholder="... years old" required />
+                    </form>
                   </div>
                 </div>
-                <br><br>
-
-                <div id="data-card">
-                    <div id="data-card-content">
-                        <img src="Assets/isi-icon.png" alt="isi-image" ></img>
-                <div id="weight-form-module" style="position: relative; bottom: 70px; left: 70px;">
-                <form method="post" class="form">
-                    <label for="weight"></label>&nbsp;Weight:</label>
-                    <input id="weight" class="data-form-content" type="number" name="isi" autocomplete="on" placeholder="... kg" required/>
-                </form>
-            </div>
 
               </div>
-    </div>
-  </div>
+                
+              <div class="col">
 
-<div class="col-6">
-     
-          <div id="data-card">
-              <div id="data-card-content">
-                  <img src="Assets/isi-icon.png" alt="isi-image"></img>
-          <div id="isi-form-module" style="position: relative; bottom: 70px; left: 70px;">
-          <form method="post" class="form">
-              <label for="isi">&nbsp;ISI:</label>
-              <input id="isi" class="data-form-content" type="number" name="weight" autocomplete="on" placeholder="..." required/>
-          </form>
-      </div>
-  </div></div>
+                <div id="data-card">
+                  <div id="data-card-content">
+                    <img src="Assets/isi-icon.png" alt="isi-image" style="width: 80px;"></img>
+                    </div id="isi-form-module">
+                    <form method="post" class="form">
+                      <label for="isi" style="padding-top:13px">&nbsp;ISI:</label>
+                      <input id="isi" class="data-form-content" type="number" name="isi" autocomplete="on" placeholder="..." required />
+                    </form>
+                  </div>
 
-  <br><br>
-  <div id="data-card">
-      <div id="data-card-content">
-          <img src="Assets/height-icon.png" alt="height-image"></img>
-  <div id="height-form-module" style="position: relative; bottom: 70px; left: 70px;">
-  <form method="post" class="form">
-      <label for="height" >&nbsp;Height:</label>
-      <input id="height" class="data-form-content" type="number" name="height" autocomplete="on" placeholder="... cm" required/>
-  </form>
-</div>
-</div>
+                </div>
+              </div>
+
+            <div class="row" style="padding-bottom:20px; "> 
+              <div class="col" style="padding-bottom:20px;">               <!-- inner grid - row 2 */-->
+                <div class="row">
+                  <div id="data-card">
+                    <div id="data-card-content">
+                      <img src="Assets/weight-icon.png" alt="weight-image"></img>
+                      </div id="weight-form-module">
+                      <form method="post" class="form">
+                        <label for="weight" style="padding-top:13px">&nbsp;Weight:</label>
+                        <input id="weight" class="data-form-content" type="number" name="weight" autocomplete="on" placeholder="... kg" required />
+                      </form>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div id="data-card">
+                    <div id="data-card-content">
+                      <img src="Assets/height-icon.png" alt="height-image"></img>
+                      </div id="height-form-module">
+                      <form method="post" class="form">
+                        <label for="height" style="padding-top:13px">&nbsp;Height:</label>
+                        <input id="height" class="data-form-content" type="number" name="height" autocomplete="on" placeholder="... cm" required />
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
 
 
-        </div>  
-      </div> 
-    </div> 
-  
+        </div>      
 
         
       </div>
@@ -159,8 +156,8 @@
       <div class="row justify-content-center">
         <div id="cal-card">
           <div id="cal-card-content">
-            <div id="cal-card-title" >
-              <h2 styles="padding-right:20px">Today’s Caloric Data:</h2>
+            <div id="cal-card-title">
+              <h2>Today’s Caloric Data:</h2>
             </div id="cal-form-module">
             <form method="post" class="form">
               <label for="cal_consume" style="padding-top:27px">&nbsp;Calories Consumed:</label>
